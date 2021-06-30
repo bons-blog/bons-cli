@@ -1,0 +1,33 @@
+{
+  "name": "bons-cli",
+  "version": "0.0.2",
+  "description": "bons-bolg初始化工具",
+  "main": "index.js",
+  "bin": {
+    "bons": "./bin/bons.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bons-blog/bons-cli.git"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "zhxqc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bons-blog/bons-cli/issues"
+  },
+  "homepage": "https://github.com/bons-blog/bons-cli#readme",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "chalk": "^4.1.1",
+    "commander": "^8.0.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^8.1.1",
+    "ora": "^5.4.1"
+  }
+}
